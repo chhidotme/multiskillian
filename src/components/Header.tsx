@@ -27,9 +27,6 @@ export default function Header() {
           <Link href="#youtube" className="text-gray-600 hover:text-teal-500 hover:underline font-medium transition duration-300">
             YouTube
           </Link>
-          {/* <Link href="#contact" className="text-gray-600 hover:text-teal-500 hover:underline font-medium transition duration-300">
-            Contact
-          </Link> */}
         </nav>
         <div className="flex items-center md:hidden">
           <button onClick={() => setIsOpen(!isOpen)} aria-label="Toggle Menu">
@@ -49,9 +46,7 @@ export default function Header() {
             <Link href="#youtube" className="block text-gray-600 hover:text-teal-500 hover:underline font-medium transition duration-300" onClick={() => setIsOpen(false)}>
               YouTube
             </Link>
-            <Link href="#contact" className="block text-gray-600 hover:text-teal-500 hover:underline font-medium transition duration-300" onClick={() => setIsOpen(false)}>
-              Contact
-            </Link>
+            
           </div>
         </nav>
       )}
